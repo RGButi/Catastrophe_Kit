@@ -22,7 +22,8 @@ public class SoundManager : MonoBehaviour
         }
 
         Updatepress();
-        AudioListener.pause = true;
+        
+
     }
 
     public void SoundPress()
@@ -63,6 +64,7 @@ public class SoundManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("muted", muted ? 1 : 0);
     }
+
 
 
 }
